@@ -1,0 +1,25 @@
+{
+    "signup_details": [
+        {
+            "student_name": "Gary Liang",
+            "signup_date": "01/08/2022"
+        },
+        {
+            "student_name": "Judy Lee",
+            "signup_date": "01/15/2022"
+        },
+        {
+            "student_name": "Mary Chen",
+            "signup_date": "01/08/2022"
+        },
+        {},
+        {
+            "student_name": "han",
+            "signup_date": "01/20/2002"
+        },
+        {
+            "student_name": "Chunxiao",
+            "signup_date": "01/28/2022"
+        }
+    ]
+}

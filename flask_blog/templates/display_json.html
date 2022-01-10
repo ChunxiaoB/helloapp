@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <title>DISPLAY JSON IN HTML</title>
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+            crossorigin="anonymous"
+    />
+    <script>
+      var jsondata ={{jsondata}};
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>User Info</h1>
+    <table border=1>
+        {% for user in jsondata: %}
+        <tr>
+            <td>{{ user['student_name'] }}</td>
+            <td>{{ user['signup_date'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+</body>
+</html>
