@@ -25,6 +25,14 @@
         </tr>
         {% endfor %}
     </table>
+
+    <hr>
+
+    <form action="/remove" method="POST">
+        Student Name:<input type="text" name="student_name" /><br>
+        Signup Event Date: <input type="text" name="signup_date" /><br>
+        <input type="submit" value="REMOVE ME">
+    </form>
 </div>
 
 </body>
